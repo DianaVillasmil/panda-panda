@@ -1,0 +1,80 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	background-image: url("../img/pandafondo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+div.page-wrapper {
+	height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+}
+ul {
+	list-style: none; /* quitar los puntos de la lista*/
+}
+
+div ul {
+	list-style: none; /* quitar los puntos de la lista*/
+	font-family: "Arial", sans-serif;
+	color: white;
+}
+li {
+	display: inline;
+}
+
+.menu {
+	background-color: green;
+	font-family: "Arial", sans-serif;
+	color: white;
+}
+
+.sub-menu {
+	padding-left: 0;
+}
+
+.sub-menu li {
+	display: inline-block;
+	width: 33%;
+	background-color: green;
+}
+.col {
+	display: inline-block;
+	width: 48%;
+	float: left;
+	text-align: justify;
+}
+
+.col.right {
+	float: right;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#imagenes > div {
+	display: inline-block;
+	width: 20%;
+	margin: 1.25%;
+	position: relative; 
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#imagenes > div a {
+	color: red;
+	position: absolute;
+	top: 3px;
+	right: 5px;
+}
+
+#imagenes img {
+	width: 100%;
+}
+
